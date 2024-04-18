@@ -1,0 +1,44 @@
+application:
+  id: entgmdbassessment-uat
+  description: entgmdbassessment-uat
+  barometerId: 041800001SG5
+  organizationId: TelematicsOperatorDataServices
+connectivity:
+  egress:
+    policies:
+      - name: allstate-db-oracle
+        hostnames:
+          - lxm0256.allstate.com
+          - lxm0257.allstate.com
+          - lxm0258.allstate.com
+          - lxm0259.allstate.com
+          - lxm0266.allstate.com
+          - lxm0267.allstate.com
+          - lxm0268.allstate.com
+          - lxm0269.allstate.com
+          - lxe100004.allstate.com
+          - lxe100005.allstate.com
+          - lxe100006.allstate.com
+          - lxe100007.allstate.com
+          - lxe100061.allstate.com
+          - lxe100062.allstate.com
+          - opgldv302.allstate.com
+          - opgldv303.allstate.com
+          - opgldv304.allstate.com
+          - opgldv305.allstate.com
+          - opgldv308.allstate.com
+          - opgldv309.allstate.com
+          - opgldv310.allstate.com
+          - opgldv311.allstate.com
+          - opmwdv304.allstate.com
+          - opmwdv305.allstate.com
+          - opmwdv302.allstate.com
+          - opmwdv303.allstate.com
+          - opmwpd306.allstate.com
+          - opmwpd307.allstate.com
+          - gl-opd-dbl-303-scan.allstate.com
+          - gl-opd-dbl-305-scan.allstate.com
+          - mw-opd-dbl-300-scan.allstate.com
+          - mw-opp-dbl-306-scan.allstate.com
+      - name: allstate-kerberos
+      - name: allstate-isam-nonprod

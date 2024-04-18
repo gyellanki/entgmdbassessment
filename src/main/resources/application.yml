@@ -1,0 +1,18 @@
+management:
+  health:
+    vault:
+      enabled: false
+    probes:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: info,health, refresh
+    health:
+      vault:
+        enabled: false
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: always

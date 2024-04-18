@@ -1,0 +1,30 @@
+application:
+  id: entgmdbassessment-learn
+  description: entgmdbassessment-learn
+  barometerId: 041800001SG5
+  organizationId: TelematicsOperatorDataServices
+connectivity:
+  egress:
+    policies:
+      - name: allstate-db-oracle
+        hostnames:
+          - lxm0256.allstate.com
+          - lxm0257.allstate.com
+          - lxm0258.allstate.com
+          - lxm0259.allstate.com
+          - lxm0266.allstate.com
+          - lxm0267.allstate.com
+          - lxm0268.allstate.com
+          - lxm0269.allstate.com
+          - opgldv302.allstate.com
+          - opgldv303.allstate.com
+          - opgldv304.allstate.com
+          - opgldv305.allstate.com
+          - opmwdv304.allstate.com
+          - opmwdv305.allstate.com
+          - opmwdv302.allstate.com
+          - opmwdv303.allstate.com
+          - gl-opd-dbl-303-scan.allstate.com
+          - mw-opd-dbl-300-scan.allstate.com
+      - name: allstate-kerberos
+      - name: allstate-isam-nonprod
